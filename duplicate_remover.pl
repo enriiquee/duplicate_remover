@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 use warnings; use strict;
-#This script remove duplicated spectrum from file input. The output 
+#This script remove duplicated spectrum from file input. 
+# Run the script: Perl deplucate_remover.pl [Name of the file]
+# This script generate and output called total.norepeat.clustering
 
 my %seen; 
 my $count = 0; 
