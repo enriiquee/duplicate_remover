@@ -33,7 +33,7 @@ def semicolon_remover(file_input, file_output):
 
 
 def main():
-	repeat_remover('test2.txt', 'total.clustering_no_semicolon2.txt')
+	repeat_remover('total_clustering.txt', 'total.clustering_no_semicolon2.txt')
 
 
 if __name__ == "__main__":
